@@ -1,0 +1,30 @@
+<div class="row-fluid">
+    <nav class="navbar sticky navbar-expand-lg navbar-light bg-light">
+        <div style="display: flex;" class="logo_and_name col-lg-4">
+            <img src="../../assets/foot.png" class="col-lg-1 col-xs-1" height="40px" width="40px" alt="logo"/>
+            <span class="col=lg-2 px-3" style="font-family: 'Dancing Script', cursive; text-align: center; font-size: 32px;"> Pet Shop </span>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-auto" id="navbarLinks" style="height: 100%;">
+            <ul class="links navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a [routerLink] = "['/']" class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item ni">
+                    <a [routerLink] = "['about']" class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item ni">
+                    <a [routerLink] = "['services']" class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item ni">
+                    <a [routerLink] = "['products']" class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item ni">
+                    <a [routerLink] = "['contact']" class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>

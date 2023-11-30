@@ -1,0 +1,54 @@
+body{
+    background-color: whitesmoke;
+}
+.card-img{
+    height: 240px;
+    width: 100% ;
+    padding: 10px;
+    border-radius: 7%;
+}
+.img-dog :hover{
+    transform: scale(1.01);
+}
+.dog-name{
+    font-size: large;
+    font-weight: bold;
+}
+.price{
+    padding-bottom: 10px;
+}
+.cart{
+    background-color: orange;
+    padding-bottom: 8px;
+    padding-top: 10px;
+}
+.cart :hover{
+    transform: scale(1.01);
+}
+.cart-btn{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+.cart-2{
+    background: transparent;
+    border: none;
+}
+.item{
+    padding: 20px 20px;
+}
+.heading{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 35px;
+}
+.row{
+    display: flex!important;
+}
+.hd {
+    border-left: 8px solid seagreen;
+    padding-left: 8px;
+}
+.main-hd{
+    padding-top: 17px;
+}

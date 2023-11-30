@@ -1,0 +1,41 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.slider{
+    background-image: url(../assets/pet11.jpg);
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.la{
+    height: 50px;
+    float: left;
+}
+.ra{
+    height: 50px;
+    float: right;
+}
+.btl{
+    background-color: transparent;
+    border: none;
+    float: left;
+    border-radius: 60%;
+}
+.btr{
+    background-color: transparent;
+    border: none;
+    float: right;
+    border-radius: 60%;
+}
+.btl:hover{
+    background-color: white;
+}
+.btr:hover{
+    background-color: white;
+}
+.arrow{
+    padding-top: 300px;
+}

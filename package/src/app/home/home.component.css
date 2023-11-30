@@ -1,0 +1,11 @@
+img{
+    min-height: 300px;
+    max-height: 550px;
+}
+.hd {
+    border-left: 8px solid seagreen;
+    padding-left: 8px;
+}
+.main-hd{
+    padding-top: 17px;
+}

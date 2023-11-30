@@ -1,0 +1,19 @@
+.hd{
+    border-left: 4px solid seagreen;
+    padding-left: 14px;
+}
+.list-group-item{
+    border: 0px;
+}
+.fot-p{
+    padding-left: 18px;
+    padding-top: 6px;
+} 
+a{
+    text-decoration: none;
+}
+.br{
+    padding: 10px 10px;
+    border-bottom: .2px solid lightgray;
+    display: flex;
+}

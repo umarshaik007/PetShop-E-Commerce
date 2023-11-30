@@ -1,0 +1,35 @@
+.navbar{
+    border-bottom: 2px solid black;
+    z-index: 50;
+}
+.logo_and_name{
+    align-items: center;
+    justify-content: center;
+}
+.links li{
+    padding-left: 50px;
+    font-size: large;
+    font-weight: bold;
+}
+a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

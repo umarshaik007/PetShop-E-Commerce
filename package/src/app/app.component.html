@@ -1,0 +1,28 @@
+<app-header></app-header>
+<router-outlet></router-outlet>
+
+<!-- <br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">Enter Your Name: </div>
+    <div class="col-lg-6"><input type="text" [(ngModel)]="username"></div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">Enter Password: </div>
+    <div class="col-lg-6"><input type="password" [(ngModel)]="password"></div>
+  </div>
+  <br><br>
+  <button (click)="default()" type="submit" class="btn btn-primary col-lg-6"> Submit </button>
+</div>
+{{valid}} -->
+
+<br><br>
+
+Name: <input type="text" />
+Age: <input type="number" />
+<button *ngIf="true">You are eligible</button>
+
+<br><br>
+<div *ngFor="let r of data">
+  {{r}}
+</div>

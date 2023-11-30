@@ -1,0 +1,33 @@
+.hd {
+    border-left: 8px solid seagreen;
+    padding-left: 8px;
+}
+.main-hd{
+    padding-top: 17px;
+}
+.servs {
+    padding: 10px;
+}
+
+.service {
+    padding: 4px;
+}
+
+.glow {
+    font-size: 22px;
+    color: red;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 50px #e60073;
+    }
+}
+
+.rows {
+    padding-top: 20px;
+}
+.logos:hover{
+    transform: scale(1.3);
+}
